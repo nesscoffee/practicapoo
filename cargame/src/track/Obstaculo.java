@@ -17,4 +17,8 @@ public class Obstaculo {
         this.tiempoRestante = 0;
         System.out.println("La bomba ha explotado! Inflinge "+this.daño+"de daño.");
     }
+    
+    public void setKilotones(int kilotones) {
+    	this.kilotones = kilotones;
+    }
 }
