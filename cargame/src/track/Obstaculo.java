@@ -6,6 +6,7 @@ public class Obstaculo {
     private int daño;
     private int tiempoRestante;
 
+    // Constructor obstaculo
     public Obstaculo(String tipoBomba, int kilotones, int daño, int tiempoRestante) {
         this.tipoBomba = tipoBomba;
         this.kilotones = kilotones;
